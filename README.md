@@ -48,7 +48,7 @@ to adapt to it.  Here's how to get [cquery][cquery] working for
 example:
 
 ```lisp
-(add-to-list 'eglot-server-programs '((c++ mode c-mode) . (eglot-cquery "cquery")))
+(add-to-list 'eglot-server-programs '((c++-mode c-mode) . (eglot-cquery "cquery")))
 ```
 
 You can also enter a `server:port` pattern to connect to an LSP
